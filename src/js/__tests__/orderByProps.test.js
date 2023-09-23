@@ -1,4 +1,4 @@
-const { orderByProps } = require('../orderByProps.js');
+import orderByProps from '../orderByProps.js';
 
 const obj = {
   name: 'мечник',

@@ -5,7 +5,7 @@ function compareKey(a, b) {
   return -1;
 }
 
-function orderByProps(target, orderList) {
+export default function orderByProps(target, orderList) {
   const result = [];
   for (const key of orderList) {
     if (Object.prototype.hasOwnProperty.call(target, key)) {
@@ -30,7 +30,3 @@ function orderByProps(target, orderList) {
   result.push(...listElements);
   return result;
 }
-
-module.exports = {
-  orderByProps,
-};
