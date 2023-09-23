@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/dkeav3kcjyn42s3b?svg=true)](https://ci.appveyor.com/project/darknessdizi/javascript-6-object-reflection-proxy)
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок
