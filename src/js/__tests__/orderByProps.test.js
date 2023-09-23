@@ -1,4 +1,4 @@
-import orderByProps from '../orderByProps.js';
+import orderByProps from '../orderByProps';
 
 const obj = {
   name: 'мечник',

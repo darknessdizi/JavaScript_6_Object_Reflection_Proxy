@@ -1,4 +1,4 @@
-import arraySkills from '../arraySkills.js';
+import arraySkills from '../arraySkills';
 
 const character = {
   name: 'Лучник',
@@ -22,7 +22,7 @@ const character = {
   ],
 };
 
-test('should get attack types from the character object', () => {
+test('Получение списка атак', () => {
   const result = arraySkills(character);
   const expected = [
     {
@@ -38,6 +38,6 @@ test('should get attack types from the character object', () => {
       description: 'Описание недоступно',
     },
   ];
-  
+
   expect(result).toEqual(expected);
 });
